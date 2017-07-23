@@ -1,0 +1,7 @@
+# Items that will drop
+drops:
+ - GOLD_NUGGET
+ - GOLD_INGOT
+ - GOLD_BLOCK
+ # More can be added here.. etc
+ # - EMERALD

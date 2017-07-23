@@ -1,0 +1,19 @@
+name: ${project.artifactId}
+main: me.pugzy.moneydrop.MoneyDrop
+version: ${project.version}
+authors: [Pugzy]
+website: https://github.com/Pugzy
+commands:
+  moneydrop:
+    description: "Toggles debug mode."
+    usage: "/moneydrop debug"
+permissions:
+  money.drop.debug:
+      description: Enable debug printing.
+      default: op
+  money.drop:
+    description: Player will drop money.
+    default: true
+  money.drop.exempt:
+     description: Player will not drop money.
+     default: false
